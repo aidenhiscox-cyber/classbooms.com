@@ -1,0 +1,65 @@
+[
+  {
+    "id": "minecraft-classic",
+    "title": "Minecraft Classic",
+    "description": "The original creative mode of Minecraft in your browser.",
+    "thumbnail": "https://picsum.photos/seed/minecraft/400/250",
+    "iframeUrl": "https://classic.minecraft.net/"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "A fast-paced 3D running game where you navigate a ball through a neon-lit obstacle course.",
+    "thumbnail": "https://picsum.photos/seed/slope/400/250",
+    "iframeUrl": "https://kdata1.com/2020/05/slope/"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "thumbnail": "https://picsum.photos/seed/2048/400/250",
+    "iframeUrl": "https://hishub.github.io/2048/"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "description": "A clean, modern version of the classic block-stacking puzzle game.",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/250",
+    "iframeUrl": "https://chvin.github.io/react-tetris/"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "description": "Fly between the pipes without hitting them in this addictive classic.",
+    "thumbnail": "https://picsum.photos/seed/bird/400/250",
+    "iframeUrl": "https://hishub.github.io/Flappy-Bird/"
+  },
+  {
+    "id": "doodle-jump",
+    "title": "Doodle Jump",
+    "description": "Jump as high as you can in this vertical platformer.",
+    "thumbnail": "https://picsum.photos/seed/jump/400/250",
+    "iframeUrl": "https://hishub.github.io/doodle-jump/"
+  },
+  {
+    "id": "pacman",
+    "title": "Pac-Man",
+    "description": "The classic arcade game. Eat all the dots and avoid the ghosts!",
+    "thumbnail": "https://picsum.photos/seed/pacman/400/250",
+    "iframeUrl": "https://macek.github.io/google_pacman/"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "description": "The ultimate idle game about baking cookies.",
+    "thumbnail": "https://picsum.photos/seed/cookie/400/250",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "A fast-paced puzzle game inspired by Tetris but on a hexagon.",
+    "thumbnail": "https://picsum.photos/seed/hex/400/250",
+    "iframeUrl": "https://hextris.io/"
+  }
+]
