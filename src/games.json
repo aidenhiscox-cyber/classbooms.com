@@ -18,7 +18,7 @@
     "title": "2048",
     "description": "Join the numbers and get to the 2048 tile!",
     "thumbnail": "https://picsum.photos/seed/2048/400/250",
-    "iframeUrl": "https://hishub.github.io/2048/"
+    "iframeUrl": "https://gabrielecirulli.github.io/2048/"
   },
   {
     "id": "tetris",
@@ -32,7 +32,7 @@
     "title": "Flappy Bird",
     "description": "Fly between the pipes without hitting them in this addictive classic.",
     "thumbnail": "https://picsum.photos/seed/bird/400/250",
-    "iframeUrl": "https://hishub.github.io/Flappy-Bird/"
+    "iframeUrl": "https://nebez.github.io/floppybird/"
   },
   {
     "id": "doodle-jump",
@@ -53,7 +53,7 @@
     "title": "Cookie Clicker",
     "description": "The ultimate idle game about baking cookies.",
     "thumbnail": "https://picsum.photos/seed/cookie/400/250",
-    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/"
+    "iframeUrl": "https://ozh.github.io/cookieclicker/"
   },
   {
     "id": "hextris",

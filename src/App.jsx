@@ -190,15 +190,34 @@ export default function App() {
               </div>
 
               <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-emerald-500/10 rounded-2xl">
-                    <Info className="text-emerald-500" size={24} />
+                <div className="flex flex-col md:flex-row gap-8">
+                  <div className="flex-1">
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="p-3 bg-emerald-500/10 rounded-2xl">
+                        <Info className="text-emerald-500" size={24} />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold">About {selectedGame.title}</h3>
+                        <p className="text-white/60 leading-relaxed mt-2">
+                          {selectedGame.description}
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">About {selectedGame.title}</h3>
-                    <p className="text-white/60 leading-relaxed max-w-3xl">
-                      {selectedGame.description}
+                  <div className="md:w-64 p-6 bg-white/5 rounded-2xl border border-white/5">
+                    <h4 className="font-bold text-sm uppercase tracking-wider text-white/40 mb-3">Trouble loading?</h4>
+                    <p className="text-xs text-white/40 leading-relaxed mb-4">
+                      Some games block being played inside other websites for security. If the screen is blank, try opening it in a new tab.
                     </p>
+                    <a
+                      href={selectedGame.iframeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-xs font-bold text-emerald-500 hover:text-emerald-400 transition-colors"
+                    >
+                      <ExternalLink size={14} />
+                      Open in New Tab
+                    </a>
                   </div>
                 </div>
               </div>
